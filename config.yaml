@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://deciding-flamingo-33.hasura.app
+admin_secret: izdwYTJRfNW6LhzAQ4ceW5n44R4f5ghNCqCUSjhmwdU44ND1MDrvqYJyzyWLKp6I
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
